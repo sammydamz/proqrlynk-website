@@ -4,3 +4,5 @@
 
 /* Neutral product surfaces; navigation stays in the page header. */
 .m-showcase{background:#242424}.m-art,.m-industry{background:#292929}.m-art-02{background:#e4e4e0;color:#222}.m-art-03{background:#d8d8d4;color:#222}.m-art-04{background:#333}.m-art:after,.m-industry:after{background:linear-gradient(180deg,#0002,#000b)}.m-device{box-shadow:20px 30px 0 #555}.m-device>a{background:#262626}.m-footer{padding-bottom:65px}
+/* Keep every photo-card label readable over the dark overlay. */
+.m-art,.m-art-02,.m-art-03,.m-art-04{color:#fff}.m-art>span{opacity:1;color:#fff}.m-art strong,.m-art a{color:#fff}
