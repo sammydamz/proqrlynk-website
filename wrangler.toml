@@ -1,0 +1,9 @@
+name = "proqrlynk-website"
+compatibility_date = "2026-11-15"
+pages_build_output_dir = "./dist"
+
+# After creating D1, add the real binding:
+# [[d1_databases]]
+# binding = "ENQUIRIES_DB"
+# database_name = "proqrlynk-enquiries"
+# database_id = "COPY_ID_FROM_CLOUDFLARE"

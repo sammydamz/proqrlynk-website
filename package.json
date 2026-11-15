@@ -1,0 +1,23 @@
+{
+  "name": "proqrlynk-website",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "npm run build && wrangler pages deploy dist --project-name proqrlynk-website"
+  },
+  "dependencies": {
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
+  },
+  "devDependencies": {
+    "vite": "7.2.7",
+    "typescript": "5.8.3",
+    "@types/react": "19.2.3",
+    "@types/react-dom": "19.2.3",
+    "wrangler": "4.20.5"
+  }
+}
